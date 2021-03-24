@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 10;
+    font-family: 'Poppins', sans-serif;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-attachment: fixed;
+}
+
+header{
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.logo{
+    color: #069370;
+    height: 50px;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+nav{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+nav ul{
+    margin: 5px;
+    padding: 10;
+    display: flex;
+
+}
+
+nav ul li{
+    list-style: none;
+    padding:3px 3px;
+    margin:14px 4px;
+    margin-top: 20px;
+    margin-right: 15px;
+
+}
+
+nav ul li a{
+    display: block;
+    margin: 10px 10;
+    text-decoration: none;
+    color: #262626;
+}
+
+nav ul li a.active
+{
+    background: #069370;
+    color: #fff;
+    transition: 0.5s;
+}
+nav ul li a:hover
+{
+    background: #069370;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+.link-1{
+    border-radius: 20px;
+    background-color:rgb(135, 176, 222);
+    height: 110px;
+    width: 25%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    margin: 20px ;
+    padding: 10px;
+    font-family: 'Potta One', cursive;
+    color: aquamarine;
+    border-bottom: 4px solid rgb(223, 0, 252);
+}
+.link-2{
+    border-radius: 20px;
+    background-color:rgb(135, 176, 222);
+    height: 110px ;
+    width: 25%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    margin: 5px 450px;
+    padding: 2px 0;
+    font-family: 'Potta One', cursive;
+    color: aquamarine;
+    border-bottom: 4px solid rgb(223, 0, 252);
+}
+.link-3{
+    border-radius: 20px;
+    background-color:rgb(135, 176, 222);
+    height: 110px;
+    width: 25%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    margin: 20px ;
+    margin-left: auto;
+    padding: 5px 20px;
+    font-family: 'Potta One', cursive;
+    color: aquamarine;
+    border-bottom: 4px solid rgb(223, 0, 252);
+}
+.content{
+    font-family: 'Potta One', cursive;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    padding: 20vh;
+    border-left: 10px solid rgb(0, 252, 97);
+    border-bottom: 10px solid rgb(0, 252, 97);
+}
+
+.para-1{
+    font-family: 'Potta One', cursive;
+    color: aqua;
+    font-size: 30px;
+}
+.intoduction{
+    color: white;
+    font-size: large;
+}
+.example{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color:grey ;
+    width: 500px;
+    height: 400px;
+    color: lightskyblue;
+}
+.para-2{
+    font-family: 'Potta One', cursive;
+    color: aqua;
+    font-size: 30px;
+}
+.formatting{
+    font-size: large;
+    color: white;
+}
+.example2-1{
+    border-radius: 10px;
+    background-color:grey ;
+    width: 600px;
+    height: 120px;
+    color: lightskyblue;
+}
+.para-3{
+    font-family: 'Potta One', cursive;
+    color: aqua;
+    font-size: 30px;
+}
+.img-hyperlink{
+    color: white;
+    font-size: large;
+}
+.example3{
+    border-radius: 10px;
+    background-color:grey ;
+    width: 600px;
+    height: 90px;
+    color: lightskyblue;
+}
+.example3-1{
+    border-radius: 5px;
+    background-color:grey ;
+    width: 600px;
+    height: 50px;
+    color: lightskyblue;
+}
+
+.button{
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    color: steelblue;
+    background: lightblue;
+    margin-left:1200px;
+    margin-top:200px;
+    position:fixed;
+    bottom:50px;
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+}
